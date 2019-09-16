@@ -1,0 +1,15 @@
+
+wrapper {
+	gradleVersion = '5.4.1'
+	distributionType = 'all'
+}
+
+subprojects {
+	group = 'com.company'
+	version = '1.0'
+	apply plugin: 'java-library'
+
+	tasks.withType(JavaCompile) {
+		options.encoding = "UTF-8"
+	}
+}

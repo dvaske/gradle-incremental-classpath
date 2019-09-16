@@ -1,0 +1,5 @@
+sourceSets.main.java.srcDir 'src/codegen/java'
+
+dependencies {
+    api project(":a")
+}
